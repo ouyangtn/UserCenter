@@ -1,0 +1,10 @@
+spring:
+  applicationType: prod
+  #数据库连接信息
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/usercenter
+    username: root
+    password: 20182018Aa
+  session:
+    timeout: PT86400S # session 过期时间，单位为秒，默认一天
